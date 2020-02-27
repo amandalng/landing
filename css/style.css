@@ -1,0 +1,54 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|Dosis:400,700&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Components */
+@import url("components/banner.css");
+@import url("components/container.css");
+@import url("components/card.css");
+@import url("components/footer.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  color: #424242;
+  background-color: #EFEFEF;
+  font-family: 'Dosis';
+}
+
+h1 {
+  font-family: 'Cedarville Cursive';
+  font-size: 60px;
+  line-height: 100%;
+}
+
+h2 {
+  font-family: 'Cedarville Cursive';
+  font-size: 40px;
+  line-height: 100%;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 100%;
+}
+
+h4, h5, h6 {
+  font-weight: 300;
+  line-height: 100%;
+}
+
+p {
+  font-weight: 300;
+  line-height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+

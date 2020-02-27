@@ -1,0 +1,32 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../../images/soaps.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  position: relative;
+  margin-bottom: 75px;
+}
+
+.banner h1,
+.banner h3 {
+  color: #ffffff;
+  text-shadow: 0px 0px 10px #858585;
+  margin: 0;
+}
+
+.banner .btn {
+  color: #ffffff;
+  background-color: #DC646D;
+  padding: 8px 20px;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 110px;
+  transition: background-color .2s;
+}
+
+.banner .btn:hover {
+  background-color: #C85B64;
+}

@@ -1,0 +1,16 @@
+.card-product {
+  background-color: white;
+  margin: 5px;
+  width: 33.3%;
+}
+
+.card-product img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-product h3,
+.card-product p {
+  margin: 12px;
+}
